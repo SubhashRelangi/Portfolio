@@ -25,3 +25,11 @@ document.querySelector('.anchorforEducationArrow').addEventListener('click', () 
 document.querySelector('.anchorHome').addEventListener('click',() => {
     location.reload();
 });
+
+document.querySelector('.handcricket').addEventListener('click',() => {
+    window.open("https://subhashrelangi.github.io/Hand-cricket/" , "_blank");
+});
+
+document.querySelector('.Rockpaperscissor').addEventListener('click',() => {
+    window.open("https://subhashrelangi.github.io/Rock-paper-scissor/" , "_blank");
+});
