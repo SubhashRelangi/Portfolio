@@ -1,0 +1,252 @@
+*{
+  border:0;
+  margin:0;
+  box-sizing: border-box;
+  font-weight:bold;
+  background-color: #05203C;
+}
+
+.total{
+  height:100vh;
+  width:100vw;
+  background-color: #05203C;
+}
+
+.header{
+  height:50px;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: end;
+}
+
+.navigationDiv{
+  height:100%;
+  width:35%;
+  color:white;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+ /*about Me Section Css */
+.AboutMeDiv{
+  height:90%;
+  width:100%;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  
+}
+
+.imageDivMe{
+  height:auto;
+  width:auto;
+  border-radius: 50%;
+}
+
+.Image{
+  height:130px;
+  width:130px;
+  border-radius: 50%;
+}
+
+.aboutDiv{
+  height:auto;
+  width:90%;
+  color:white;
+}
+
+.Me{
+  line-height: 25px;
+}
+
+.name{
+  font-size:25px;
+  text-align:center;
+  margin-bottom:20px;
+}
+
+.arrowRight{
+  font-size:25px;
+  color:white;
+  padding-left:20px;
+}
+
+.BackArrowDiv{
+  height:auto;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: start;
+}
+
+/* Content Div Css */
+
+.contentDiv{
+  height:500px;
+  width:100%;
+  color:white;
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.photoDiv{
+  height:150px;
+  width:150px;
+  border-radius:50%;
+}
+
+.detailsDiv{
+  height:auto;
+  width:100%;
+}
+
+.skill{
+  text-align:center;
+  font-size:15px;
+}
+.name1{
+  font-size:2rem;
+  text-align:center;
+}
+
+.buttonDiv{
+  margin-top:20px;
+  height:auto;
+  width:100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutButton{
+  height:30px;
+  width:100px;
+  border-radius:20px;
+  background-color:white;
+}
+
+/* Education section */
+
+.educationSection{
+  height:auto;
+  width:100%;
+  color:white;
+  display: none;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+.educationHeading{
+  text-align:center;
+  font-size:2rem;
+}
+
+.headingTag{
+  font-size:1rem;
+  margin-bottom:10px;
+  margin-top:10px; 
+  margin-left:10px;
+}
+
+.para1{
+  font-size:1rem;
+  margin-bottom:10px;
+  margin-top:10px; 
+  margin-left:10px;
+}
+
+.para2{
+  margin-left:30px;
+  margin-bottom:10px;
+}
+
+.para3{
+  margin-bottom:10px;
+  font-size:12px;
+  width:90%;
+  margin-left:20px;
+}
+.educationDetailsDiv{
+  height:auto;
+  width:100%;
+  display: flex;
+  align-items:start;
+  justify-content: center;
+  flex-direction:column;
+}
+
+
+
+.anchorforEducationArrow{
+  height:auto;
+  width:100%;
+}
+
+.arrowRight1{
+  font-size:20px;
+  padding-left:20px;
+}
+
+/* Skill Div */
+
+.skillHeaderDiv{
+  height:40px;
+  width:100%;
+  display:flex;
+  align-items:center;
+  justify-content: center;
+  color:white;
+}
+
+.SkillDiv{
+  height:400px;
+  width:100%;
+  display:flex;
+  flex-direction:column;
+  flex-wrap:wrap;
+  overflow-x: auto;
+  color:white;
+}
+
+.Skills{
+  height:400px;
+  width:95%;
+  border-radius:20px;
+  margin-left:5px;
+  border:1px solid white;
+  display:flex;
+  flex-direction:column;
+  align-items: center;
+  justify-content: center;
+}
+
+.skillImage{
+  height:200px;
+  width:200px;
+  border-radius:10px;
+}
+
+.ratingDiv{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction:column;
+}
+
+.skillName{
+  font-size:25px;
+  width:100%;
+  text-align:center;
+  margin-top:20px;
+  margin-bottom:10px;
+}
+
+.paraforskill{
+  width:80%;
+  font-size:10px;
+  text-align:center;
+}
