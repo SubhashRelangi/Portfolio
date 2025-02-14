@@ -36,6 +36,8 @@ const projects = [{
 let displayskills = '';
 let displayprojects = '';
 
+// skills Div 
+
 skills.forEach(({ image, name, matter }) => {
   displayskills += `<div class="Skills">
                 <div class="imageforskill">
@@ -51,6 +53,8 @@ skills.forEach(({ image, name, matter }) => {
                 </div>
             </div>`
 });
+
+// Projects Div
 
 document.querySelector('.SkillDiv').innerHTML = displayskills;
 
@@ -70,6 +74,8 @@ projects.forEach(({ image, name, note, letter }) => {
 });
 
 document.querySelector('.projectsDiv').innerHTML = displayprojects;
+
+//Education Section Html
 
 document.querySelector('.educationSection').innerHTML = `<div class="BackArrowDiv">
                 <a class="anchorforEducationArrow">
@@ -95,6 +101,42 @@ document.querySelector('.educationSection').innerHTML = `<div class="BackArrowDi
                 </div>
             </div>`
 
+
+// About Me Div Html
+
+document.querySelector('.AboutMeDiv').innerHTML = ` <div class="BackArrowDiv">
+                <a class="Anchorforarrow">
+                    <i class="fa-solid fa-arrow-left arrowRight"></i>
+                </a>
+            </div>
+            <div class="imageDivMe">
+                <img class="Image1" src="images/profile.jpg" alt="Profile Picture">
+            </div>
+            <div class="aboutDiv">
+                <h1 class="name">Relangi Lova Subhash</h1>
+                <p class="Me">
+                    <span style="padding-left: 70px;">Hey</span>, I'm Subhash, a web developer with a passion for the
+                    last 6 months. I specialize in Front-End development.
+                </p>
+                <p class="Me">
+                    <span style="padding-left: 70px;">My</span> journey in tech was sparked by a deep curiosity about
+                    how things work behind the scenes on the web, and I was inspired by a close friend who encouraged me
+                    to dive into development. This motivation has driven me to continuously learn and improve. With a
+                    solid foundation in web development, I've worked on several projects, including 
+                    <a href="https://subhashrelangi.github.io/Rock-paper-scissor/" target="_blank" class="anchorforgame">
+                        Rock Paper Scissors
+                    </a> and 
+                    <a href="https://subhashrelangi.github.io/Hand-cricket/" target="_blank" class="anchorforgame">
+                        Hand Cricket
+                    </a>.
+                </p>
+                <p class="Me">
+                    <span style="padding-left: 70px;">I</span> specialize in front-end development, but I have a deep
+                    interest in back-end processes as well, allowing me to approach projects with a well-rounded
+                    perspective and tackle diverse challenges effectively. Beyond coding, I love exploring emerging
+                    technologies, playing badminton, drawing, and expanding my expertise in multimedia and design.
+                </p>
+            </div>`
 
 
 document.querySelector('.aboutButton').addEventListener('click', () => {
