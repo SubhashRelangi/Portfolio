@@ -14,7 +14,7 @@
 }
 
 .header{
-  height:7vh;
+  height:5vh;
   width:100%;
   display: flex;
   align-items: center;
@@ -23,7 +23,7 @@
 
 .navigationDiv{
   height:100%;
-  width:35%;
+  width:30%;
   color:white;
   display: flex;
   align-items: center;
@@ -31,17 +31,17 @@
 }
 
 .navigations{
-  font-size:2rem;
+  font-size:1rem;
 }
 
  /*about Me Section Css */
 .AboutMeDiv{
-  height:80vh;
+  height:auto;
   width:100%;
   display: none;
   flex-direction: column;
   align-items: center;
-  justify-content: space-around;
+  justify-content: space-evenly;
   margin-bottom:20px;
   
 }
@@ -50,11 +50,13 @@
   height:auto;
   width:auto;
   border-radius: 50%;
+  margin-bottom:20px;
+  margin-top:10px;
 }
 
 .Image{
-  height:400px;
-  width:400px;
+  height:200px;
+  width:200px;
   border-radius: 50%;
 }
 
@@ -64,19 +66,25 @@
   color:white;
 }
 
+.Image1{
+  height:150px;
+  width:150px;
+  border-radius: 50%;
+}
+
 .Me{
-  font-size:2rem;
-  line-height: 50px;
+  font-size:1rem;
+  line-height: 30px;
 }
 
 .name{
-  font-size:4rem;
+  font-size:2rem;
   text-align:center;
   margin-bottom:20px;
 }
 
 .arrowRight{
-  font-size:4rem;
+  font-size:2rem;
   color:white;
   padding-left:20px;
 }
@@ -114,10 +122,10 @@
 
 .skill{
   text-align:center;
-  font-size:3rem;
+  font-size:1rem;
 }
 .name1{
-  font-size:5rem;
+  font-size:2rem;
   text-align:center;
 }
 
@@ -131,11 +139,13 @@
 }
 
 .aboutButton{
-  height:100px;
-  width:300px;
-  font-size: 40px;
+  height:40px;
+  width:120px;
+  font-size: 15px;
   border-radius:60px;
-  background-color:white;
+  color:white;
+  background-color:rgb(1, 8, 23);
+  border:2px solid white;
 }
 
 /* Education section */
@@ -151,35 +161,35 @@
 }
 .educationHeading{
   text-align:center;
-  font-size:4rem;
+  font-size:2rem;
   margin-bottom:30px;
 }
 
 .headingTag{
-  font-size:3rem;
+  font-size:20px;
   margin-bottom:10px;
   margin-top:10px; 
-  margin-left:30px;
+  margin-left:10px;
 }
 
 .para1{
-  font-size:2rem;
+  font-size:1rem;
   margin-bottom:10px;
   margin-top:10px; 
-  margin-left:40px;
+  margin-left:20px;
 }
 
 .para2{
-  margin-left:100px;
-  font-size:2rem;
-  margin-bottom:20px;
+  margin-left:40px;
+  font-size:1rem;
+  margin-bottom:10px;
 }
 
 .para3{
   margin-bottom:40px;
-  font-size:30px;
+  font-size:1rem;
   width:90%;
-  margin-left:50px;
+  margin-left:30px;
 }
 .educationDetailsDiv{
   height:auto;
@@ -198,16 +208,16 @@
 }
 
 .arrowRight1{
-  font-size:4rem;
+  font-size:2rem;
   padding-left:20px;
 }
 
 /* Skill Div */
 
 .skillHeaderDiv{
-  height:120px;
+  height:100px;
   width:100%;
-  font-size:2rem;
+  font-size:1rem;
   display:flex;
   align-items:center;
   justify-content: center;
@@ -215,9 +225,10 @@
 }
 
 .skillImage{
-  height:350px;
-  width:350px;
-  border-radius:10px;
+  height:250px;
+  width:250px;
+  border-radius:20px;
+  border:3px solid white;
 }
 
 .ratingDiv{
@@ -228,31 +239,42 @@
 }
 
 .skillName{
-  font-size:3rem;
+  font-size:2rem;
   width:100%;
   text-align:center;
-  margin-top:20px;
+  margin-top:10px;
   margin-bottom:10px;
 }
 
 .paraforskill{
   width:80%;
-  font-size:2rem;
+  font-size:1rem;
   text-align:center;
 }
 
-.SkillDiv{
-  height:650px;
+.SkillDiv,.projectsDiv{
+  height:550px;
   width:100%;
   display:flex;
   flex-direction:column;
   flex-wrap:wrap;
   overflow-x: auto;
   color:white;
+  overflow: scroll; /* Enables scrolling */
+  scrollbar-width: none; /* For Firefox */
+  -ms-overflow-style: none; /* For IE and Edge */
+}
+
+.SkillDiv::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
+}
+
+.projectsDiv::-webkit-scrollbar {
+  display: none; /* For Chrome, Safari, and Opera */
 }
 
 .Skills{
-  height:650px;
+  height:550px;
   width:95%;
   border-radius:20px;
   margin-left:8px;
@@ -264,17 +286,18 @@
 }
 
 .visitbutton{
-  height:60px;
-  width:200px;
-  background-color: white;
-  color:black;
+  height:40px;
+  width:130px;
+  background-color: rgb(1, 10, 26);
+  color:white;
+  border:2px solid white;
   border-radius:40px;
-  font-size:40px;
+  font-size:15px;
 }
 
 .contactDiv{
-  margin-top:60px;
-  height:50px;
+  margin-top:20px;
+  height:auto;
   width:100%;
   display:flex;
   align-items: center;
@@ -283,15 +306,15 @@
 }
 
 .contacts{
-  height:80px;
+  height:30px;
   display: flex;
   align-items: center;
   justify-content: center;
 }
 
 .iconforcontact{
-  font-size:3rem;
-  color:#0263C8;
+  font-size:2rem;
+  color:#16776A;
 }
 
 .anchorforcontact{
@@ -303,20 +326,21 @@
 }
 
 .Nameforimage{
-  font-size:2rem;
+  font-size:14px;
   font-style: italic;
   text-align:center;
-  color:#025298;
+  color:#B4C2C0;
+  margin-top: 5px;
 }
 
 .footer{
-  height:50px;
+  height:40px;
   width:100%;
   display:flex ;
   align-items:center;
   justify-content: center;
-  color:#025298;
+  color:#16776A;
   font-style: italic;
-  font-size:2rem;
-  margin-top:40px;
+  font-size:1rem;
+  margin-top:10px;
 }
